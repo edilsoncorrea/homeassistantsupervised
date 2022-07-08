@@ -41,4 +41,4 @@ wget https://github.com/home-assistant/supervised-installer/releases/latest/down
 
 sudo dpkg -i homeassistant-supervised.deb
 
-
+Criar o arquivo para ler os dados do UPS na versão Supervised (https://github.com/edilsoncorrea/upsraspberryhomeassistant)
