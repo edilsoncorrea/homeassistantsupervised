@@ -1,7 +1,3 @@
-# homeassistantsupervised
-Home Assistant Supervised Instalação no Debian Linux
-
-
 https://www.youtube.com/watch?v=Ruk7OO0piJU&t=245s
 
 https://mathesonsteplock.ca/install-home-assistant-supervised-on-debian/
