@@ -44,3 +44,5 @@ sudo dpkg -i os-agent_1.2.2_linux_x86_64.deb
 wget https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb
 
 sudo dpkg -i homeassistant-supervised.deb
+
+
