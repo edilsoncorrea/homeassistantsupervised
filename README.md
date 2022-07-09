@@ -6,8 +6,8 @@ Tutorial de Matheson Steplock sobre instalação do Home Assistant Supervised no
 [Install Home Assistant (Supervised) on Debian By  Matheson Last Updated On June 28, 2020](https://mathesonsteplock.ca/install-home-assistant-supervised-on-debian/)
 
 Instalação da versão Bullseye. A autenticação mudou. Decidi instalar na versão anterior. 
-#Atualizar a sources-list/ls
-#https://techviewleo.com/add-debian-11-bullseye-official-repositories-to-sources-list/
+Tutorial sobre como atualizar a sources-list no Bullseye: [Add Debian 11 Bullseye official repositories to sources.list]
+(https://techviewleo.com/add-debian-11-bullseye-official-repositories-to-sources-list/)
 
 >`sudo tee /etc/apt/sources.list<<EOF`
 >`deb http://deb.debian.org/debian bullseye main`
