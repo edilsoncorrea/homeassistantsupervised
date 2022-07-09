@@ -22,25 +22,27 @@ deb http://deb.debian.org/debian bullseye-backports main
 deb-src http://deb.debian.org/debian bullseye-backports main
 EOF
 
-sudo apt-get update && sudo apt-get upgrade -y
+>sudo apt-get update && sudo apt-get upgrade -y
+>
+>sudo apt --fix-broken install
+>
+>sudo apt-get install jq wget curl avahi-daemon udisks2 libglib2.0-bin network-manager dbus apparmor -y
+>
+>sudo apt --fix-broken install
+>
+>sudo reboot
 
-sudo apt --fix-broken install
-
-sudo apt-get install jq wget curl avahi-daemon udisks2 libglib2.0-bin network-manager dbus apparmor -y
-
-sudo apt --fix-broken install
-
-sudo reboot
-
-sudo su
+>sudo su
 
 #Para ir para o raíz
-cd
+>cd
+>
+>`wget https://github.com/home-assistant/os-agent/releases/download/1.2.2/os-agent_1.2.2_linux_x86_64.deb`
+>
+>sudo dpkg -i os-agent_1.2.2_linux_x86_64.deb
+>
 
-wget https://github.com/home-assistant/os-agent/releases/download/1.2.2/os-agent_1.2.2_linux_x86_64.deb
-
-sudo dpkg -i os-agent_1.2.2_linux_x86_64.deb
-
+  
 Link para baixar a última versão do Home Assistant Supervised: 
                                     
 >`wget https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb`
