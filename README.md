@@ -47,4 +47,4 @@ Link para baixar a última versão do Home Assistant Supervised:
 
 Comando para instalação do pacote da versão do Home Assistant Supervised: `sudo dpkg -i homeassistant-supervised.deb`
 
-Criar o arquivo para ler os dados do UPS na versão Supervised (https://github.com/edilsoncorrea/upsraspberryhomeassistant)
+Tutorial para utilização do módulo [UPS 18650 Lite](https://github.com/linshuqin329/UPS-18650-Lite) na versão Supervised do Home Assistant. [Clique aqui](https://github.com/edilsoncorrea/upsraspberryhomeassistant)
