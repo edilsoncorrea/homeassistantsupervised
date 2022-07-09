@@ -1,7 +1,9 @@
-https://www.youtube.com/watch?v=Ruk7OO0piJU&t=245s
+Home Assistant Supervised Instalação no Debian Linux
 
-https://mathesonsteplock.ca/install-home-assistant-supervised-on-debian/
+Video muito bom do canal KPeyanski sobre a instalação do Home Assistant Supervised no Debian Linux:[Home Assistant Supervised Installation on Debian Linux](https://www.youtube.com/watch?v=Ruk7OO0piJU&t=245s)
 
+Tutorial de Matheson Steplock sobre instalação do Home Assistant Supervised no Debian Linux: 
+[Install Home Assistant (Supervised) on Debian By  Matheson Last Updated On June 28, 2020](https://mathesonsteplock.ca/install-home-assistant-supervised-on-debian/)
 #Atualizar a sources-list/ls
 #https://techviewleo.com/add-debian-11-bullseye-official-repositories-to-sources-list/
 sudo tee /etc/apt/sources.list<<EOF
