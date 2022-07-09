@@ -34,7 +34,6 @@ EOF
 >
 >sudo su
 >
-#Para ir para o raíz
 >cd
 >
 >`wget https://github.com/home-assistant/os-agent/releases/download/1.2.2/os-agent_1.2.2_linux_x86_64.deb`
@@ -46,6 +45,8 @@ Link para baixar a última versão do Home Assistant Supervised:
                                     
 >`wget https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb`
 
+
 Comando para instalação do pacote da versão do Home Assistant Supervised: `sudo dpkg -i homeassistant-supervised.deb`
+  
 
 Tutorial para utilização do módulo [UPS 18650 Lite](https://github.com/linshuqin329/UPS-18650-Lite) na versão Supervised do Home Assistant. [Clique aqui](https://github.com/edilsoncorrea/upsraspberryhomeassistant)
