@@ -1,11 +1,13 @@
 Home Assistant Supervised Instalação no Debian Linux
 
-Video muito bom do canal KPeyanski sobre a instalação do Home Assistant Supervised no Debian Linux:[Home Assistant Supervised Installation on Debian Linux](https://www.youtube.com/watch?v=Ruk7OO0piJU&t=245s)
+Video muito bom do canal KPeyanski sobre a instalação do Home Assistant Supervised no Debian Linux: [Home Assistant Supervised Installation on Debian Linux](https://www.youtube.com/watch?v=Ruk7OO0piJU&t=245s)
 
 Tutorial de Matheson Steplock sobre instalação do Home Assistant Supervised no Debian Linux: 
 [Install Home Assistant (Supervised) on Debian By  Matheson Last Updated On June 28, 2020](https://mathesonsteplock.ca/install-home-assistant-supervised-on-debian/)
+
 #Atualizar a sources-list/ls
 #https://techviewleo.com/add-debian-11-bullseye-official-repositories-to-sources-list/
+
 sudo tee /etc/apt/sources.list<<EOF
 deb http://deb.debian.org/debian bullseye main
 deb-src http://deb.debian.org/debian bullseye main
@@ -39,8 +41,8 @@ wget https://github.com/home-assistant/os-agent/releases/download/1.2.2/os-agent
 
 sudo dpkg -i os-agent_1.2.2_linux_x86_64.deb
 
-wget https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb
+Link para baixar a última versão do Home Assistant Supervised: wget https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb
 
-sudo dpkg -i homeassistant-supervised.deb
+Comando para instalação do pacote da versão do Home Assistant Supervised: `sudo dpkg -i homeassistant-supervised.deb`
 
 Criar o arquivo para ler os dados do UPS na versão Supervised (https://github.com/edilsoncorrea/upsraspberryhomeassistant)
