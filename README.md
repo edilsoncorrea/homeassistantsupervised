@@ -31,16 +31,15 @@ EOF
 >sudo apt --fix-broken install
 >
 >sudo reboot
-
+>
 >sudo su
-
+>
 #Para ir para o raíz
 >cd
 >
 >`wget https://github.com/home-assistant/os-agent/releases/download/1.2.2/os-agent_1.2.2_linux_x86_64.deb`
 >
 >sudo dpkg -i os-agent_1.2.2_linux_x86_64.deb
->
 
   
 Link para baixar a última versão do Home Assistant Supervised: 
