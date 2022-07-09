@@ -5,22 +5,23 @@ Video muito bom do canal KPeyanski sobre a instalação do Home Assistant Superv
 Tutorial de Matheson Steplock sobre instalação do Home Assistant Supervised no Debian Linux: 
 [Install Home Assistant (Supervised) on Debian By  Matheson Last Updated On June 28, 2020](https://mathesonsteplock.ca/install-home-assistant-supervised-on-debian/)
 
+Instalação da versão Bullseye. A autenticação mudou. Decidi instalar na versão anterior. 
 #Atualizar a sources-list/ls
 #https://techviewleo.com/add-debian-11-bullseye-official-repositories-to-sources-list/
 
-sudo tee /etc/apt/sources.list<<EOF
-deb http://deb.debian.org/debian bullseye main
-deb-src http://deb.debian.org/debian bullseye main
-
-deb http://security.debian.org/debian-security bullseye-security main
-deb-src http://security.debian.org/debian-security bullseye-security main
-
-deb http://deb.debian.org/debian bullseye-updates main
-deb-src http://deb.debian.org/debian bullseye-updates main
-
-deb http://deb.debian.org/debian bullseye-backports main
-deb-src http://deb.debian.org/debian bullseye-backports main
-EOF
+>`sudo tee /etc/apt/sources.list<<EOF`
+>`deb http://deb.debian.org/debian bullseye main`
+>`deb-src http://deb.debian.org/debian bullseye main`
+>
+>`deb http://security.debian.org/debian-security bullseye-security main`
+>`deb-src http://security.debian.org/debian-security bullseye-security main`
+>
+>`deb http://deb.debian.org/debian bullseye-updates main`
+>`deb-src http://deb.debian.org/debian bullseye-updates main`
+>
+>`deb http://deb.debian.org/debian bullseye-backports main`
+>`deb-src http://deb.debian.org/debian bullseye-backports main`
+>EOF
 
 >sudo apt-get update && sudo apt-get upgrade -y
 >
