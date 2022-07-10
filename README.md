@@ -58,3 +58,6 @@ Comando para instalação do pacote da versão do Home Assistant Supervised: `su
   
 
 Tutorial para utilização do módulo [UPS 18650 Lite](https://github.com/linshuqin329/UPS-18650-Lite) na versão Supervised do Home Assistant. [Clique aqui](https://github.com/edilsoncorrea/upsraspberryhomeassistant)
+
+
+Teste
