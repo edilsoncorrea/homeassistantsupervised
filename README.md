@@ -28,32 +28,53 @@ Tutorial sobre como atualizar a sources-list no Bullseye: [Add Debian 11 Bullsey
 >`deb-src http://deb.debian.org/debian bullseye-backports main`
 >EOF
 
->sudo apt-get update && sudo apt-get upgrade -y
->
->sudo apt --fix-broken install
->
->sudo apt-get install jq wget curl avahi-daemon udisks2 libglib2.0-bin network-manager dbus apparmor -y
->
->sudo apt --fix-broken install
->
->sudo reboot
->
->sudo su
->
->cd
->
->`wget https://github.com/home-assistant/os-agent/releases/download/1.2.2/os-agent_1.2.2_linux_x86_64.deb`
->
->sudo dpkg -i os-agent_1.2.2_linux_x86_64.deb
+````
+sudo apt-get update && sudo apt-get upgrade -y
+````
+
+````
+sudo apt --fix-broken install
+````
+
+````
+sudo apt-get install jq wget curl avahi-daemon udisks2 libglib2.0-bin network-manager dbus apparmor -y
+````
+
+````
+sudo apt --fix-broken install
+````
+
+````
+sudo reboot
+````
+
+````
+sudo su
+````
+
+````
+cd
+````
+
+````
+wget https://github.com/home-assistant/os-agent/releases/download/1.2.2/os-agent_1.2.2_linux_x86_64.deb
+````
+
+````
+sudo dpkg -i os-agent_1.2.2_linux_x86_64.deb
+````
 
   
 Link para baixar a última versão do Home Assistant Supervised: 
                                     
->`wget https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb`
+````
+wget https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb`
+````
 
-
-Comando para instalação do pacote da versão do Home Assistant Supervised: `sudo dpkg -i homeassistant-supervised.deb`
-  
+Comando para instalação do pacote da versão do Home Assistant Supervised: 
+````
+sudo dpkg -i homeassistant-supervised.deb`
+````  
 
 Tutorial para utilização do módulo [UPS 18650 Lite](https://github.com/linshuqin329/UPS-18650-Lite) na versão Supervised do Home Assistant. [Clique aqui](https://github.com/edilsoncorrea/upsraspberryhomeassistant)
 
