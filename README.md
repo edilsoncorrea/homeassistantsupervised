@@ -13,6 +13,7 @@ Instalação da versão Bullseye. A autenticação mudou. Decidi instalar na ver
 
 Tutorial sobre como atualizar a sources-list no Bullseye: [Add Debian 11 Bullseye official repositories to sources.list](https://techviewleo.com/add-debian-11-bullseye-official-repositories-to-sources-list/)
 
+Instalação Supervised no Debian 11 para máquinas x86 (32bits): (https://github.com/ntguest/32bit-home-assistant-supervised-installer)
 
 >`sudo tee /etc/apt/sources.list<<EOF`
 >`deb http://deb.debian.org/debian bullseye main`
