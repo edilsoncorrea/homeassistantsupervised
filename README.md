@@ -74,7 +74,7 @@ wget https://github.com/home-assistant/supervised-installer/releases/latest/down
 
 Comando para instalação do pacote da versão do Home Assistant Supervised: 
 ````
-sudo dpkg -i homeassistant-supervised.deb`
+sudo dpkg -i homeassistant-supervised.deb
 ````  
 
 Tutorial para utilização do módulo [UPS 18650 Lite](https://github.com/linshuqin329/UPS-18650-Lite) na versão Supervised do Home Assistant. [Clique aqui](https://github.com/edilsoncorrea/upsraspberryhomeassistant)
