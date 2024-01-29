@@ -69,7 +69,7 @@ sudo dpkg -i os-agent_1.2.2_linux_x86_64.deb
 Link para baixar a última versão do Home Assistant Supervised: 
                                     
 ````
-wget https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb`
+wget https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb
 ````
 
 Comando para instalação do pacote da versão do Home Assistant Supervised: 
